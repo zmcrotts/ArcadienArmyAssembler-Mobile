@@ -1,6 +1,6 @@
 "use strict";
 
-const OFFLINE_VERSION = "c104468f85a1a265";
+const OFFLINE_VERSION = "e915ec730d26c93d";
 const CACHE_PREFIX = "arcadien-offline-";
 const CACHE_NAME = CACHE_PREFIX + OFFLINE_VERSION;
 const READY_KEY = "./__offline-ready-" + OFFLINE_VERSION;
@@ -119,7 +119,7 @@ const OFFLINE_FILES = [
   "./offline-app.js",
   "./styles.css"
 ];
-const TOTAL_BYTES = 177095406;
+const TOTAL_BYTES = 177095573;
 let offlineReady = false;
 
 self.addEventListener("install", () => self.skipWaiting());
